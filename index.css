@@ -1,0 +1,12 @@
+body {
+  margin: 0px;
+}
+nav {
+  background-color: #333333;
+  padding: 1rem;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+}
