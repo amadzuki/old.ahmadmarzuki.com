@@ -1,12 +1,17 @@
 body {
   margin: 0px;
 }
-nav {
+.navigation {
+  display: flex;
+  font-family: "Roboto Slab", sans-serif;
+  font-size: 1.3rem;
   background-color: #333333;
   padding: 1rem;
+  justify-content: center;
 }
 
-nav a {
+.navigation a {
   color: #ffffff;
   text-decoration: none;
+  margin: 0 2rem;
 }
