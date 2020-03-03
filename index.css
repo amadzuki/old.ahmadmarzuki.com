@@ -1,5 +1,6 @@
 body {
   margin: 0px;
+  background-color: gray;
 }
 .navigation {
   display: flex;
@@ -14,4 +15,35 @@ body {
   color: #ffffff;
   text-decoration: none;
   margin: 0 2rem;
+}
+
+.card {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card .photo {
+  height: 400px;
+  width: 600px;
+  background-image: linear-gradient(
+      hsla(360, 100%, 100%, 0),
+      hsla(0, 0%, 20%, 1)
+    ),
+    url("images/marzuki.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.card h1 {
+  font-family: "Roboto Slab", sans-serif;
+  font-weight: 700;
+  font-size: 1.8em;
+  letter-spacing: 1px;
+  color: #ffffff;
+  margin-right: 1em;
 }
