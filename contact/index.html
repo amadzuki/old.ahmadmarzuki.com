@@ -5,37 +5,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Contact me</title>
+    <link rel="stylesheet" href="../index.css" />
   </head>
 
   <body>
     <!-- Navigation -->
-    <nav>
+    <nav class="navigation">
       <a href="../index.html">Home</a>
       <a href="../about/index.html">About</a>
       <a href="../contact/index.html">Contact</a>
     </nav>
 
-    
     <!-- Main Content -->
     <main>
-      <h1>Drop us a word or two</h1>
-      <section>
-        <form>
-          <fieldset>
-            <div>
-              <input name="full-name" type="text" placeholder="Your Name" required />
-            </div>
-            <div>
-              <input name="email" type="email" placeholder="yourname@domain.com" required />
-            </div>
-            <div>
-              <input name="company" type="text" placeholder="company"  />
-            </div>
-            <div>
-              <input name="message" type="text" placeholder="message" />
-            </div>
-            <aside><img src="../images/contact.jpg" alt="contact-illustration"></aside>
-          </fieldset>
+      <section class="card">
+        <div class="subcard">
+          <form class="form">
+            <h1>Drop us a word or two</h1>
+            <input
+              name="full-name"
+              type="text"
+              placeholder="Your Name"
+              required
+            />
+            <input
+              name="email"
+              type="email"
+              placeholder="yourname@domain.com"
+              required
+            />
+            <input name="company" type="text" placeholder="company" />
+            <input name="message" type="text" placeholder="message" />
+          </form>
+
+          <aside class="illustration">
+            <img src="../images/contact.jpg" alt="contact-illustration" />
+          </aside>
+        </div>
+        <div class="social-media">
+          <a href="https://web.facebook.com/amadzuki7" target="_blank">
+            <img src="../images/facebook.svg" alt="facebook" />
+          </a>
+          <a href="https://www.instagram.com/amadzuki" target="_blank">
+            <img src="../images/instagram.svg" alt="instagram" />
+          </a>
+          <a href="https://twitter.com/amadzuki" target="_blank">
+            <img src="../images/twitter.svg" alt="twitter" />
+          </a>
+        </div>
       </section>
 
       <!-- Links -->
@@ -56,12 +73,10 @@
           <img src="../images/youtube.svg" alt="youtube" />
         </a>
       </section>
-
-      
     </main>
 
     <!-- Footer, Credits, and Copyright -->
-    <footer>
+    <footer class="footer">
       <p>
         <span>Copyright &copy; 2020</span>
         <a href="https://github.com/amadzuki">Ahmad Marzuki</a>.
