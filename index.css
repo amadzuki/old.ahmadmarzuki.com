@@ -114,3 +114,11 @@ main .photo {
   display: flex;
   margin: 1rem;
 }
+
+input,
+textarea {
+  font-size: 1.2em;
+  padding: 5px;
+  font-family: inherit;
+  margin: 2px;
+}
