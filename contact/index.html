@@ -26,26 +26,37 @@
         <div class="subcard">
           <form class="form">
             <h1>Drop us a word or two</h1>
-            <input
-              name="full-name"
-              type="text"
-              placeholder="Your Name"
-              required
-            />
-            <input
-              name="email"
-              type="email"
-              placeholder="yourname@domain.com"
-              required
-            />
-            <input name="company" type="text" placeholder="company" />
-            <textarea
-              name="message"
-              id=""
-              cols="30"
-              rows="10"
-              placeholder="Write your message here"
-            ></textarea>
+            <fieldset>
+              <label for="full-name">Full name:</label>
+              <input
+                name="full-name"
+                type="text"
+                placeholder="Your Name"
+                required
+              />
+            </fieldset>
+            <fieldset>
+              <label for="email">Email:</label>
+              <input
+                name="email"
+                type="email"
+                placeholder="yourname@domain.com"
+                required
+              />
+            </fieldset>
+            <fieldset>
+              <label for="company">Company:</label>
+              <input name="company" type="text" placeholder="company" />
+            </fieldset>
+            <fieldset>
+              <label for="message">Message:</label>
+              <textarea
+                name="message"
+                cols="30"
+                rows="10"
+                placeholder="Write your message here"
+              ></textarea>
+            </fieldset>
           </form>
 
           <aside class="illustration">

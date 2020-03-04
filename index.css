@@ -1,7 +1,7 @@
 body {
   margin: 0;
   background-color: black;
-  font-family: "Roboto Slab", sans-serif;
+  font-family: 'Roboto Slab', sans-serif;
 }
 
 a {
@@ -51,7 +51,7 @@ main .photo {
       hsla(360, 100%, 100%, 0),
       hsla(0, 0%, 20%, 1)
     ),
-    url("images/marzuki.jpeg");
+    url('images/marzuki.jpeg');
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -121,4 +121,11 @@ textarea {
   padding: 5px;
   font-family: inherit;
   margin: 2px;
+}
+
+fieldset {
+  padding: 0;
+  border: none;
+  display: flex;
+  flex-direction: column;
 }
