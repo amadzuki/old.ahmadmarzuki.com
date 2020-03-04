@@ -30,8 +30,9 @@ main {
 
 .card {
   margin-top: 2em;
-  background-color: grey;
+  background-color: white;
   padding-bottom: 0.7em;
+  border-radius: 1rem;
 }
 
 .card-image img {
@@ -111,4 +112,5 @@ main .photo {
 
 .subcard {
   display: flex;
+  margin: 1rem;
 }
