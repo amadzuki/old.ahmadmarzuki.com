@@ -6,19 +6,50 @@ body {
 
 a {
   text-decoration: none;
+  /* text-align: center; */
+}
+nav li {
+  text-align: center;
+}
+.sub-navigation {
+  display: none;
+}
+
+.dropdown:hover .sub-navigation {
+  display: flex;
+  position: absolute;
+  margin-left: -20px;
+  margin-top: 14px;
+  /* margin-left: 0; */
+  opacity: 0.8;
+  background-color: inherit;
+  width: 200px;
+}
+
+li {
+  list-style: none;
+}
+
+.dropdown ul li:hover {
+  background-color: hotpink;
 }
 
 .navigation {
   display: flex;
   font-size: 1.3rem;
   background-color: #333333;
-  padding: 1rem;
+  padding: 0;
   justify-content: center;
 }
 
 .navigation a {
+  display: block;
   color: #ffffff;
-  margin: 0 2rem;
+  padding: 0.7em 1em;
+}
+.navigation a:hover,
+.navigation li:hover {
+  background-color: rgb(80, 73, 80);
 }
 
 main {
