@@ -6,10 +6,17 @@ body {
 
 a {
   text-decoration: none;
-  /* text-align: center; */
+  color: inherit;
+  background-color: inherit;
 }
+
 nav li {
   text-align: center;
+}
+
+.dropdown {
+  color: #fff;
+  padding: 0.7em 1em;
 }
 .sub-navigation {
   display: none;
@@ -18,11 +25,10 @@ nav li {
 .dropdown:hover .sub-navigation {
   display: flex;
   position: absolute;
+  opacity: 0.8;
   margin-left: -20px;
   margin-top: 14px;
-  /* margin-left: 0; */
-  opacity: 0.8;
-  background-color: inherit;
+  background-color: #333;
   width: 200px;
 }
 
@@ -31,7 +37,7 @@ li {
 }
 
 .dropdown ul li:hover {
-  background-color: hotpink;
+  color: hotpink;
 }
 
 .navigation {
@@ -42,13 +48,13 @@ li {
   justify-content: center;
 }
 
-.navigation a {
+.navigation > a {
   display: block;
   color: #ffffff;
   padding: 0.7em 1em;
 }
 .navigation a:hover,
-.navigation li:hover {
+.dropdown:hover {
   background-color: rgb(80, 73, 80);
 }
 
