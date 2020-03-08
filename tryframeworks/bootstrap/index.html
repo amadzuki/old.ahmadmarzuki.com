@@ -19,28 +19,77 @@
 
   <body>
     <!-- Navigation -->
-    <nav class="navbar navbar-dark  bg-dark">
-      <a class="navbar-brand" href="#">amadzuki</a>
-      <a href="about.html">About</a>
-      <a href="contact.html">Contact</a>
-      <div class="dropdown">
-        <div>
-          <a href="../../index.html">Play with CSS</a>
-        </div>
-        <div class="sub-navigation">
-          <ul>
-            <li>
-              <a href="tryframeworks/bootstrap/index.html">Bootstrap</a>
-            </li>
-            <li>Material</li>
-            <li>Zurb</li>
-            <li>Semantic UI</li>
-            <li>Bulma</li>
-            <li>Pure UI</li>
-            <li>Tailwind</li>
-          </ul>
-        </div>
+    <nav class="navbar navbar-dark  bg-dark navbar-expand-lg">
+      <a class="navbar-brand" href="../../index.html">amadzuki</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div
+        class="collapse navbar-collapse justify-content-end"
+        id="navbarNavDropdown"
+      >
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdownMenuLink"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Dropdown link
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+        </ul>
       </div>
+      <!-- <a class="nav-link" href="about.html">About</a>
+      <a class="nav-link" href="contact.html">Contact</a>
+      <div class="nav-item dropdown">
+        <div>
+          <a
+            class="nav-link dropdown-toggle"
+            href="#"
+            id="navbarDropdownMenuLink"
+            role="button"
+            data-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false"
+            >Play with CSS</a
+          >
+        </div>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="tryframeworks/bootstrap/index.html">
+            Bootstrap
+          </a>
+          <a class="nav-item dropdown-item" href="#">Material</a>
+          <a class="dropdown-item nav-item" href="#">Zurb</a>
+          <a class="dropdown-item nav-item" href="#">Semantic UI</a>
+          <a class="dropdown-item nav-item" href="#">Bulma</a>
+          <a class="dropdown-item nav-item" href="#">Pure UI</a>
+          <a class="dropdown-item nav-item" href="#">Tailwind</a>
+        </div>
+      </div> -->
     </nav>
 
     <main>
@@ -76,5 +125,21 @@
         <span>All rights reserved.</span>
       </p>
     </footer>
+
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
