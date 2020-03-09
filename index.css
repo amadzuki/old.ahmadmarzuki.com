@@ -8,6 +8,7 @@ a {
   text-decoration: none;
   color: inherit;
   background-color: inherit;
+  white-space: nowrap;
 }
 
 nav li {
@@ -44,11 +45,14 @@ li {
   display: flex;
   font-size: 1.3rem;
   background-color: #333333;
+  background-image: url(images/logo-amadzuki.svg);
+  background-repeat: no-repeat;
+  background-size: 5em 2.5em;
   padding: 0;
   justify-content: center;
 }
 
-.navigation > a {
+.navigation > * {
   display: block;
   color: #ffffff;
   padding: 0.7em 1em;
