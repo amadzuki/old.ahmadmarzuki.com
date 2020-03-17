@@ -1,64 +1,55 @@
-body {
+* {
   margin: 0;
-  background-color: black;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
   font-family: "Roboto Slab", sans-serif;
 }
 
-a {
-  text-decoration: none;
-  color: inherit;
-  background-color: inherit;
-  white-space: nowrap;
-}
-
-nav li {
-  text-align: center;
-}
-
-.dropdown {
-  color: #fff;
-  padding: 0.7em 1em;
-}
-.sub-navigation {
-  display: none;
-}
-
-.dropdown:hover .sub-navigation {
-  display: flex;
-  position: absolute;
-  opacity: 0.8;
-  margin-left: -20px;
-  margin-top: 14px;
-  background-color: #333;
-  width: 200px;
-}
-
-li {
-  list-style: none;
-}
-
-.dropdown ul li:hover {
-  color: hotpink;
+body {
+  background-color: black;
 }
 
 .navigation {
   display: flex;
   font-size: 1.3rem;
-  background-color: #333333;
-  background-image: url(images/logo-amadzuki.svg);
-  background-repeat: no-repeat;
-  background-size: 5em 2.5em;
-  padding: 0;
   justify-content: center;
 }
 
-.navigation > * {
-  display: block;
-  color: #ffffff;
-  padding: 0.7em 1em;
+.navigation .logo {
+  margin-right: auto;
+  padding: 7px 20px;
 }
-.navigation a:hover,
-.dropdown:hover {
+
+.logo img {
+  max-height: 37px;
+}
+
+.navigation a {
+  color: #fff;
+  display: flex;
+  padding: 0.7em 1em;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.5s;
+  white-space: nowrap;
+}
+
+.navigation > ul {
+  display: flex;
+}
+
+.dropdown {
+  display: none;
+}
+
+.navigation li:hover .dropdown {
+  display: block;
+  position: absolute;
+}
+
+.navigation a:hover {
   background-color: rgb(80, 73, 80);
 }
 
@@ -166,7 +157,6 @@ textarea {
   padding: 5px;
   font-family: inherit;
   margin: 2px;
-  box-sizing: border-box;
   width: 100%;
   border: 2px solid #333;
   border-radius: 2px;
