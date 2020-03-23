@@ -8,9 +8,17 @@
 }
 
 body {
-  background-color: black;
+  background-color: #1f1c1e;
 }
 
+p {
+  margin: 1rem 0;
+}
+
+.nav-background {
+  background-color: #272222;
+  box-shadow: 0 0.5rem 0.5rem hsla(0, 0%, 0%, 0.7);
+}
 .navigation {
   display: flex;
   font-size: 1.3rem;
@@ -32,7 +40,7 @@ body {
   padding: 0.7em 1em;
   align-items: center;
   justify-content: center;
-  transition: background 0.5s;
+  transition: all 0.5s ease 0s;
   white-space: nowrap;
 }
 
