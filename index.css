@@ -34,7 +34,9 @@ p {
 .logo img {
   max-height: 37px;
 }
-
+.menu-icon {
+  display: none;
+}
 .navigation a {
   color: #fff;
   display: flex;
@@ -181,4 +183,26 @@ fieldset {
   display: flex;
   flex-direction: column;
   margin-bottom: 10px;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 610px) {
+  .menu-icon {
+    display: block;
+    margin: 0.5em;
+  }
+  .navigation {
+    padding-top: 3px;
+  }
+
+  .menu-icon img {
+    height: 35px;
+  }
+  .logo img {
+    height: 35px;
+  }
+  .menu * {
+    display: none;
+  }
 }
