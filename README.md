@@ -7,6 +7,7 @@ This is my personal website. Check it out at [ahmadmarzuki.com](https://ahmadmar
 - HTML
 - CSS
 - Javascript
+- Bootstrap
 
 ## License
 

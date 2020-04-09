@@ -14,6 +14,7 @@ body {
 p {
   margin: 1rem 0;
   text-align: center;
+  padding: 0 1em;
 }
 
 .nav-background {
@@ -24,6 +25,7 @@ p {
   display: flex;
   font-size: 1.3rem;
   justify-content: center;
+  position: relative;
 }
 
 .navigation .logo {
@@ -32,7 +34,7 @@ p {
 }
 
 .logo img {
-  max-height: 37px;
+  max-height: 33px;
 }
 .menu-icon {
   display: none;
@@ -53,6 +55,7 @@ p {
 
 .dropdown {
   display: none;
+  background-color: #272727;
 }
 
 .navigation li:hover .dropdown {
@@ -61,7 +64,7 @@ p {
 }
 
 .navigation a:hover {
-  background-color: rgb(80, 73, 80);
+  background-color: rgba(0, 0, 0, 0.3);
 }
 
 main {
