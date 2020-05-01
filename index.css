@@ -6,7 +6,9 @@
   list-style: none;
   font-family: "Roboto Slab", sans-serif;
 }
-
+.head-playground {
+  color: #fff;
+}
 body {
   background-color: #1f1c1e;
 }
